@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(107, 99, 114);
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 17px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.list ul{
+    display: flex;
+}
+
+.list li{
+    list-style: none;
+    padding-right: 15px;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+span i{
+    padding-left: 10px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+margin-top: 60px;
+}
+.side1 img{
+    height: 500px;
+}
+
+.side1{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(194, 202, 199, 0.96);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.side1 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.side1 a{
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+}
+
+.side1 img{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+}
+
+.side2{
+    width: 80%;
+    background-color: azure;
+    padding-left: 350px;
+    padding-right: 10px;
+    z-index: -2;
+}
+
+.side2 p{
+    text-align: justify;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagebox{
+    width: 30%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom:10px ;
+    
+}
+
+
+.imagebox img{
+    width: 30%;
+}
+
+.imagebox input{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(132, 128, 128);
+    color: #fff;
+    border: none;
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3{
+    padding-bottom: 10px;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(74, 69, 78);
+    z-index: 4;
+    position: fixed;
+    bottom: 0; 
+     left: 0;
+    right: 0;
+}
+
+.scroll-icon{
+    float: right;
+    padding: 10px;
+    align-content: center;
+    font-size: 30px;
+    color: #fff;
+    color: #fff;
+}
+@media only screen and (max-width: 360px){
+   .side2{
+       padding-top: 500px;
+   }
+   .side1{
+       height: 40%;
+    width: 100%;
+   }
+   .side1 img{
+       height: 250px;
+   }
+   .side1 li{
+       align-items: center;
+   }
+   .side2{
+       width: 100%;
+     
+       padding-right: 300px;
+       padding-top: 900px;
+   }
+   .section{
+       display: block;
+       width: 100%;
+   }
+   .imagebox{
+       width: 100%;
+      
+   }
+
+}
